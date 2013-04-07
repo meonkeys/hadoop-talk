@@ -1,7 +1,7 @@
-Git talk by Jesse Keating and Adam Monsen.
+Hadoop/MapReduce talk by Adam Monsen.
 
 To be presented at [LinuxFest Northwest
-2013](http://www.linuxfestnorthwest.org/content/git-fun-and-profit). Come
+2013](http://linuxfestnorthwest.org/content/intro-mapreduce-hadoop-linux). Come
 check it out!
 
 To generate slides from this source code, execute `make`. You'll need pandoc

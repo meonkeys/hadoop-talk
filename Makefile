@@ -1,7 +1,7 @@
-git-talk-s5.html: git-talk.txt
+hadoop-talk-s5.html: hadoop-talk.txt
 	pandoc -w s5 -s $< > $@
 
-git-talk-s5-FINAL.html: git-talk.txt
+hadoop-talk-s5-FINAL.html: hadoop-talk.txt
 	pandoc -w s5 --data-dir=. --self-contained -s $< > $@
 
 clean:
