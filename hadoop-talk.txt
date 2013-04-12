@@ -1,4 +1,4 @@
-% Intro to MapReduce with Hadoop on Linux
+% Introduction to MapReduce with Hadoop on Linux
 % Adam Monsen
 % April 28, 2013
 
@@ -9,10 +9,46 @@ Conference: LinuxFest Northwest 2013
 Target audience experience level: intermediate
 -->
 
-- based on an article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
+- this is the Hadoop talk
+- see my article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
+- thank you BLUG and LFNW
+- please donate to support this conference
+
+# How do you scale when you must?
+
+# Bigger hardware
+
+> In pioneer days they used oxen for heavy pulling, and when one ox couldn’t
+> budge a log, they didn’t try to grow a larger ox. We shouldn’t be trying for
+> bigger computers, but for more systems of computers. --Grace Hopper
+
+# Try "smarter"
+
+- say we're at the limits of our hardware
+- how do we "throw more hardware" at our problem?
+
+# Scale out
+
+- scaling _out_ is hard
+    - communication
+    - partitioning the problem
+    - synchronization
+    - hardware failure
+    - different paradigms ("process" vs. "job")
+    - hardest part is making the above easy
+
+# Hadoop and MapReduce
+
+- MapReduce provides a pattern to scale **big**
+- Hadoop provides an implementation of MapReduce
+
+# Example: Create a book index
+
+- TODO
 
 # Conclusion
 
 <!--
 vim: ft=markdown
 -->
+
