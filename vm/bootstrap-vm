@@ -9,7 +9,7 @@ then
 fi
 apt-add-repository ppa:git-core/ppa
 apt-get update
-apt-get dist-upgrade
+apt-get -y dist-upgrade
 apt-get -y install \
     git \
     pandoc \
