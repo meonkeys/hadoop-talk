@@ -42,9 +42,30 @@ Target audience experience level: intermediate
 - MapReduce provides a pattern to scale **big**
 - Hadoop provides an implementation of MapReduce
 
+# Diagram: MapReduce overview
+
+- TODO: create this with graphviz/dot?
+
+# Example: Log crunching
+
+- TODO: real example, 10-50GB or so of log data (whatever
+  it takes to realize a slowdown on my desktop and a speedup
+  on Elastic MapReduce)
+- TODO: actually try it on Elastic MapReduce
+
 # Example: Create a book index
 
-- TODO
+- TODO (see code on Windows laptop)
+
+# Dumbo
+
+- TODO: revisit examples above in Dumbo
+
+# Screenshot: Elastic MapReduce
+
+# Screenshot: NameNode
+
+# Screenshot: JobTracker
 
 # Conclusion
 
