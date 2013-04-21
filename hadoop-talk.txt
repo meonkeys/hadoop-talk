@@ -30,8 +30,8 @@ Target audience experience level: intermediate
 # Scale out
 
 - scaling _out_ is hard
+    - partitioning
     - communication
-    - partitioning the problem
     - synchronization
     - hardware failure
     - different paradigms ("process" vs. "job")
