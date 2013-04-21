@@ -1,12 +1,10 @@
 #!/bin/bash
-set -ex
-echo START $0
 if [[ -e "provisioning-complete" ]]
 then
     echo Looks like this machine is already provisioned. Skipping...
-    echo END $0
     exit 0
 fi
+set -ex
 apt-add-repository ppa:git-core/ppa
 apt-get update
 apt-get -y dist-upgrade
@@ -15,4 +13,3 @@ apt-get -y install \
     pandoc \
     ubuntu-desktop
 touch "provisioning-complete"
-echo END $0
