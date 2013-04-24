@@ -14,9 +14,11 @@ apt-get -y install \
     pandoc \
     ubuntu-desktop \
     vim
-wget http://archive.apache.org/dist/hadoop/core/hadoop-1.0.4/hadoop-1.0.4.tar.gz
-tar -xzf hadoop-1.0.4.tar.gz
+HADOOP_VERSION=1.0.4
+wget http://archive.apache.org/dist/hadoop/core/hadoop-$HADOOP_VERSION/hadoop-$HADOOP_VERSION.tar.gz
+tar -xzf hadoop-$HADOOP_VERSION.tar.gz
 git clone git://github.com/meonkeys/hadoop-talk.git
 echo "export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386" >> /home/vagrant/.bashrc
+echo "export HADOOP_HOME=/home/vagrant/hadoop-$HADOOP_VERSION" >> /home/vagrant/.bashrc
 sed -i 's/enabled=1/enabled=0/' /etc/default/apport
 touch "provisioning-complete"
