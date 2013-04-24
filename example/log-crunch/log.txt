@@ -1,0 +1,6 @@
+localhost: restarting
+dsl5.example.com: invalid user 'bart'
+dsl5.example.com: invalid user 'charlie'
+dsl5.example.com: invalid user 'david'
+dsl8.example.net: invalid password for user 'admin'
+dsl8.example.net: user 'admin' logged in
