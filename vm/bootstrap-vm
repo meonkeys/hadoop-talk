@@ -17,4 +17,5 @@ wget http://archive.apache.org/dist/hadoop/core/hadoop-1.0.4/hadoop-1.0.4.tar.gz
 tar -xzf hadoop-1.0.4.tar.gz
 git clone git://github.com/meonkeys/hadoop-talk.git
 echo "export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386" >> /home/vagrant/.bashrc
+sed -i 's/enabled=1/enabled=0/' /etc/default/apport
 touch "provisioning-complete"
