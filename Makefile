@@ -1,9 +1,9 @@
 name = hadoop-talk
 
-$(name)-s5.html: $(name).txt
+$(name)-s5.html: $(name).md
 	pandoc -w s5 -s $< > $@
 
-$(name)-s5-FINAL.html: $(name).txt
+$(name)-s5-FINAL.html: $(name).md
 	pandoc -w s5 --data-dir=. --self-contained -s $< > $@
 
 publish-slideshow: $(name)-s5-FINAL.html
