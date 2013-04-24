@@ -10,6 +10,10 @@ apt-get update
 apt-get -y dist-upgrade
 apt-get -y install \
     git \
+    openjdk-7-jre-headless \
     pandoc \
     ubuntu-desktop
+wget http://archive.apache.org/dist/hadoop/core/hadoop-1.0.4/hadoop-1.0.4.tar.gz
+tar -xzf hadoop-1.0.4.tar.gz
+git clone git://github.com/meonkeys/hadoop-talk.git
 touch "provisioning-complete"
