@@ -1,0 +1,82 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ by per.franck@gmail.com -->
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_21">
+   <path stroke-width="10" stroke="#ff0000" fill="#ff0000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_22">
+   <path stroke-width="10" stroke="#ff0000" fill="#ff0000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_25">
+   <path stroke-width="10" stroke="#0000ff" fill="#0000ff" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_28">
+   <path stroke-width="10" stroke="#0000ff" fill="#0000ff" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_27">
+   <path stroke-width="10" stroke="#ff0000" fill="#ff0000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_29">
+   <path stroke-width="10" stroke="#0000ff" fill="#0000ff" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_42">
+   <path stroke-width="10" stroke="#ff0000" fill="#ff0000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_43">
+   <path stroke-width="10" stroke="#0000ff" fill="#0000ff" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_44">
+   <path stroke-width="10" stroke="#ff0000" fill="#ff0000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_46">
+   <path stroke-width="10" stroke="#0000ff" fill="#0000ff" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="143" width="107" y="151.50001" x="224" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="#e5e5e5"/>
+  <line transform="rotate(90 383.00000000000006,218.00000000000003) " marker-end="url(#se_marker_end_svg_21)" id="svg_21" y2="183.5" x2="383" y1="252.5" x1="383" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#ff0000" fill="none"/>
+  <line transform="rotate(130 176.33221435546872,139.00000000000003) " id="svg_22" marker-end="url(#se_marker_end_svg_22)" y2="104.5" x2="176.33221" y1="173.5" x1="176.33221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#ff0000" fill="none"/>
+  <g id="svg_23">
+   <path id="svg_1" d="m137.80533,75.42484c0,6.16779 -22.49761,11.16698 -50.25004,11.16698m50.25004,-11.16698l0,0c0,6.16779 -22.49761,11.16698 -50.25004,11.16698c-27.75242,0 -50.25029,-4.99919 -50.25029,-11.16698m0,0l0,0c0,-6.16724 22.49787,-11.1665 50.25029,-11.1665c27.75243,0 50.25004,4.99927 50.25004,11.1665l0,44.66699c0,6.1673 -22.49761,11.16652 -50.25004,11.16652c-27.75242,0 -50.25029,-4.99922 -50.25029,-11.16652l0,-44.66699z" stroke="#000000" fill="#e5e5e5"/>
+   <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" id="svg_4" y="109.5" x="87.55517" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">problem data</text>
+  </g>
+  <g id="svg_24">
+   <path id="svg_3" d="m135.30533,336.42484c0,6.16779 -22.4976,11.16696 -50.25003,11.16696m50.25003,-11.16696l0,0c0,6.16779 -22.4976,11.16696 -50.25003,11.16696c-27.75242,0 -50.25029,-4.99918 -50.25029,-11.16696m0,0l0,0c0,-6.16724 22.49788,-11.1665 50.25029,-11.1665c27.75243,0 50.25003,4.99927 50.25003,11.1665l0,44.66699c0,6.1673 -22.4976,11.16653 -50.25003,11.16653c-27.75242,0 -50.25029,-4.99924 -50.25029,-11.16653l0,-44.66699z" stroke="#000000" fill="#e5e5e5"/>
+   <text id="svg_5" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="369.5" x="85.05517" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">solution data</text>
+  </g>
+  <line marker-start="url(#se_marker_start_svg_25)" id="svg_25" transform="rotate(55 183.83221435546878,315) " y2="280.5" x2="183.83221" y1="349.5" x1="183.83221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#0000ff" fill="none"/>
+  <line marker-end="url(#se_marker_end_svg_27)" id="svg_27" transform="rotate(55 366.83221435546875,136.50000000000003) " y2="102" x2="366.83221" y1="171" x1="366.83221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#ff0000" fill="none"/>
+  <line id="svg_28" marker-start="url(#se_marker_start_svg_28)" transform="rotate(55 379.83221435546875,153.5) " y2="119" x2="379.83221" y1="188" x1="379.83221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#0000ff" fill="none"/>
+  <line marker-start="url(#se_marker_start_svg_29)" id="svg_29" transform="rotate(90 383.00000000000006,234.50000000000003) " y2="200" x2="383" y1="269" x1="383" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#0000ff" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" id="svg_33" y="60" x="245" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#ff0000" fill="#000000"/>
+  <g id="svg_37">
+   <g id="svg_30">
+    <rect id="svg_31" height="68" width="107" y="319" x="445.5" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="#e5e5e5"/>
+    <text id="svg_32" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="357" x="500.55517" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">Worker Node</text>
+   </g>
+   <text id="svg_36" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="369.5" x="540.5" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#ff0000" fill="#000000">n</text>
+  </g>
+  <g id="svg_38">
+   <g id="svg_14">
+    <rect id="svg_15" height="68" width="107" y="190.5" x="445.5" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="#e5e5e5"/>
+    <text id="svg_16" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="228.5" x="500.55517" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">Worker Node</text>
+   </g>
+   <text id="svg_35" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="241.5" x="541" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#ff0000" fill="#000000">2</text>
+  </g>
+  <g id="svg_39">
+   <g id="svg_13">
+    <rect id="svg_9" height="68" width="107" y="72" x="445.5" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="#e5e5e5"/>
+    <text id="svg_10" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="110" x="500.55517" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">Worker Node</text>
+   </g>
+   <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" id="svg_34" y="120" x="541" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#ff0000" fill="#000000">1</text>
+  </g>
+  <line id="svg_42" transform="rotate(130 386.33221435546875,299.5) " marker-end="url(#se_marker_end_svg_42)" y2="265" x2="386.33221" y1="334" x1="386.33221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#ff0000" fill="none"/>
+  <line marker-start="url(#se_marker_start_svg_43)" id="svg_43" transform="rotate(130 375.83221435546875,314.00000000000006) " y2="279.5" x2="375.83221" y1="348.5" x1="375.83221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#0000ff" fill="none"/>
+  <line id="svg_44" transform="rotate(90 274.3322143554688,177.00000000000003) " marker-end="url(#se_marker_end_svg_44)" y2="142.5" x2="274.33221" y1="211.5" x1="274.33221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#ff0000" fill="none"/>
+  <text font-style="italic" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" id="svg_45" y="168.5" x="273" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#ff0000" fill="#000000">Map</text>
+  <line marker-start="url(#se_marker_start_svg_46)" id="svg_46" transform="rotate(90 279.83221435546875,279.50000000000006) " marker-end="url(#se_marker_end_svg_46)" y2="245" x2="279.83221" y1="314" x1="279.83221" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" stroke="#0000ff" fill="none"/>
+  <text font-style="italic" id="svg_47" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="271" x="278.5" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#ff0000" fill="#000000">Reduce</text>
+  <text id="svg_8" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="12" y="228" x="279.05517" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="#000000" fill="#000000">Master Node</text>
+ </g>
+</svg>

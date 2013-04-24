@@ -44,7 +44,11 @@ Target audience experience level: intermediate
 
 # Diagram: MapReduce overview
 
-- TODO: create this with graphviz/dot?
+![MapReduce diagram](Mapreduce_Overview.svg)\ 
+
+<div class="handout">
+The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org/wiki/File:Mapreduce_Overview.svg), used here in accordance with the [Creative Commons](http://en.wikipedia.org/wiki/Creative_Commons) [Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
+</div>
 
 # Example: Log crunching
 
