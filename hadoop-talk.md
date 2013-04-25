@@ -52,17 +52,24 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 
 # Example: Log crunching
 
-- shell/python version, small input file
+- shell version, small input file
     - map only, add sort, add reduce
-- single-node/local hadoop
+- streaming: single-node/local hadoop
 - Dumbo local
 - Dumbo hadoop
 
 # Log crunching, more data
 
-- shell version with a 667M input file takes 21sec
+- shell version with a 1.4G input file took 44sec
     - 8-way Intel i7, 8GB RAM, SSD
-- TODO: actually try it on Elastic MapReduce
+- streaming with 667M input file on Elastic MapReduce took 7 min
+    - 1x m1.small master, 2x m1.small core
+- much more data needed before the cluster pays off
+
+<hr />
+
+> In a one-meter race between a rocket and a scooter, the scooter is gone
+> before the rocket's engines are started.
 
 <div class="handout">
 Generated larger (667M) log file like so:
@@ -71,16 +78,13 @@ for i in {1..100}; do cat log.txt &gt;&gt; /tmp/data23k; done
 for i in {1..100}; do cat /tmp/data23k &gt;&gt; /tmp/data2.3M; done
 for i in {1..30}; do cat /tmp/data2.3M &gt;&gt; /tmp/data67M; done
 for i in {1..10}; do cat /tmp/data67M &gt;&gt; /tmp/data667M; done
+for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 </pre>
 </div>
 
 # Example: Create a book index
 
 - TODO (see code on Windows laptop)
-
-# Dumbo
-
-- TODO: revisit examples above in Dumbo
 
 # Screenshot: Elastic MapReduce
 
