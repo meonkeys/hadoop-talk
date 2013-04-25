@@ -1,0 +1,4 @@
+page-1: Programming means writing code to execute on a computer. But the majority of the work done by a programmer is maintaining code, not writing it from scratch. Hence, a far greater concern with coding is whether or not the code written can be effectively maintained.
+page-2: A computer is a complex machine. Code written by humans can be complex. Humans make mistakes when writing code. These mistakes are called bugs. Every programmer and user knows about bugs. Since bugs are an inevitability, plan for maintenance.
+page-3: If you decide to learn programming, remember this. You're writing code to communicate with others. This includes your future self. You'll spend far more time reading and maintaining the code than you'll spend writing it.
+page-4: It's handy that code controls computers. But readable, maintainable code is pure magic!
