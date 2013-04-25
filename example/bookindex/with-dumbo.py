@@ -2,7 +2,6 @@ import re
 
 def mapper(key, value):
     page_name, text = value.split(':')
-    text = text.rstrip()
     page_number = page_name.split('-')[1]
     matches = re.findall('\w+', text)
     for word in matches:
