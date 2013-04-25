@@ -84,7 +84,10 @@ for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 
 # Example: Create a book index
 
-- TODO (see code on Windows laptop)
+- book text
+- partially reduced key,value pairs
+- final output
+- walk through dumbo `mapper()` and `reducer()`
 
 # Screenshot: Elastic MapReduce
 
@@ -97,4 +100,3 @@ for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 <!--
 vim: ft=markdown
 -->
-
