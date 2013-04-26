@@ -52,11 +52,20 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 
 # Example: Log crunching
 
-- shell version, small input file
+1. shell version, small input file
     - map only, add sort, add reduce
-- streaming: local (single-node) hadoop
-- Dumbo local
-- Dumbo hadoop
+2. streaming: local (single-node) hadoop
+3. Dumbo local
+4. Dumbo hadoop
+
+<div class="handout">
+Run these commands:
+
+1. `make shell`
+2. `make hadoop`
+3. `make dumbo-local`
+4. `make dumbo-hadoop`
+</div>
 
 # Log crunching, more data
 
