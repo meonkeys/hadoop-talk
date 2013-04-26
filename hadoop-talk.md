@@ -59,7 +59,7 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 4. Dumbo hadoop
 
 <div class="handout">
-These demos are in `example/log-crunch`.
+These demos are in `example/log-crunch`
 
 1. `./map.py < log.txt`, then `make shell`
 2. `make hadoop`
@@ -69,11 +69,11 @@ These demos are in `example/log-crunch`.
 
 # Log crunching, more data
 
-- shell version with a 1.4G input file took 44sec
+- shell version with a 1.4G input file took 44 seconds
     - 8-way Intel i7, 8GB RAM, SSD
-- streaming with 667M input file on Elastic MapReduce took 7 min
+- streaming with 667M input file on Elastic MapReduce took 7 minutes
     - 1x m1.small master, 2x m1.small core
-- much more data needed before the cluster pays off
+- much more data needed to overcome cluster overhead
 
 <hr />
 
