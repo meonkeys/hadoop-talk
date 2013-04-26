@@ -54,7 +54,7 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 
 - shell version, small input file
     - map only, add sort, add reduce
-- streaming: single-node/local hadoop
+- streaming: local (single-node) hadoop
 - Dumbo local
 - Dumbo hadoop
 
