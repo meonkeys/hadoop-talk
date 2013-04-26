@@ -89,13 +89,10 @@ for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 - final output
 - walk through dumbo `mapper()` and `reducer()`
 
-# Screenshot: Elastic MapReduce
+# The End
 
-# Screenshot: NameNode
-
-# Screenshot: JobTracker
-
-# Conclusion
+* <http://adammonsen.com/talks>
+* <https://github.com/meonkeys/hadoop-talk>
 
 <!--
 vim: ft=markdown
