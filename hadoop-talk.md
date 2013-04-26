@@ -53,15 +53,15 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 # Example: Log crunching
 
 1. shell version, small input file
-    - map only, add sort, add reduce
+    - map only, then add reduce
 2. streaming: local (single-node) hadoop
 3. Dumbo local
 4. Dumbo hadoop
 
 <div class="handout">
-Run these commands:
+These demos are in `example/log-crunch`.
 
-1. `make shell`
+1. `./map.py < log.txt`, then `make shell`
 2. `make hadoop`
 3. `make dumbo-local`
 4. `make dumbo-hadoop`
