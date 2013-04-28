@@ -10,9 +10,8 @@ def mapper(key, value):
 
 def reducer(key, values):
     pageset = set()
-    for some_pages in values:
-        for page in some_pages:
-            pageset.add(page)
+    for page in values:
+        pageset.add(page)
     pagelist = list(pageset)
     pagelist.sort()
     yield key, ','.join(pagelist)
