@@ -1,18 +1,17 @@
 % Introduction to MapReduce with Hadoop on Linux
 % Adam Monsen
-% April 28, 2013
+% October 11, 2013
 
 # Welcome!
 
 <!--
-Conference: LinuxFest Northwest 2013
+Conference: SeaGL 2013
 Target audience experience level: intermediate
 -->
 
 - this is the Hadoop talk
 - see my article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
-- thank you BLUG and LFNW
-- please donate to support this conference
+- thank you SCCC
 
 # How do you scale when you must?
 

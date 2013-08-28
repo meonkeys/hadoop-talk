@@ -2,9 +2,7 @@
 
 Hadoop/MapReduce talk by Adam Monsen.
 
-To be presented at [LinuxFest Northwest
-2013](http://linuxfestnorthwest.org/content/intro-mapreduce-hadoop-linux). Come
-check it out!
+To be presented at [SeaGL 2013](http://seagl.org). Come check it out!
 
 [Generated Slideshow](http://meonkeys.github.io/hadoop-talk/).
 
