@@ -1,4 +1,4 @@
-% Introduction to MapReduce with Hadoop on Linux
+% Introduction to MapReduce with Hadoop
 % Adam Monsen
 % October 11, 2013
 
