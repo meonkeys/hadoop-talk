@@ -2,9 +2,11 @@
 
 Hadoop/MapReduce talk by Adam Monsen.
 
-To be presented at [SeaGL 2013](http://seagl.org). Come check it out!
+To be [presented at SeaGL 2013](http://lanyrd.com/2013/seagl/scpfdf/). Come check it out!
 
 [Generated Slideshow](http://meonkeys.github.io/hadoop-talk/).
+
+[Other talks I've done](http://adammonsen.com/talks).
 
 # Copyright and license
 
