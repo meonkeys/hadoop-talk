@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import sys
-pages = set()
+last_word = None
+last_pages = set()
 word = None
-this_word = None
 
 def emit(word, pages):
     sorted_pages = list(pages)
@@ -10,16 +10,16 @@ def emit(word, pages):
     print('{}\t{}'.format(word, ','.join(sorted_pages)))
 
 for line in sys.stdin:
-    this_word, page_numbers = line.split('\t')
-    page_numbers = page_numbers.rstrip()
-    if this_word == word:
-        for page_number in page_numbers.split(','):
-            pages.add(page_number)
+    word, page_numbers = line.split('\t')
+    pages = page_numbers.rstrip()
+    if last_word == word:
+        for page_number in pages.split(','):
+            last_pages.add(page_number)
     else:
-        if word:
-            emit(word, pages)
-        word = this_word
-        pages = set([page_numbers,])
+        if last_word:
+            emit(last_word, last_pages)
+        last_word = word
+        last_pages = set([pages,])
 
-if this_word == word:
-    emit(word, pages)
+if last_word == word:
+    emit(last_word, last_pages)
