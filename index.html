@@ -7,6 +7,7 @@
   <meta name="author" content="Adam Monsen" />
   <meta name="date" content="2013-10-11" />
   <title>Introduction to MapReduce with Hadoop</title>
+  <style type="text/css">code{white-space: pre;}</style>
   <!-- configuration parameters -->
   <meta name="defaultView" content="slideshow" />
   <meta name="controlVis" content="hidden" />
@@ -46,6 +47,10 @@ Target audience experience level: intermediate
 <li>see my article in the <a href="http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing">April 2013 issue of Linux Journal</a></li>
 <li>thank you SCCC</li>
 </ul>
+<div class="handout">
+You'll laugh and you'll cry during this awe-inspiring introduction to big data processing with MapReduce and Hadoop. I only tested my code on Ubuntu GNU/Linux and only provide specific instructions for same, but all code is cross-platform.
+</div>
+
 </div>
 <div class="section slide level1" id="how-do-you-scale-when-you-must">
 <h1>How do you scale when you must?</h1>
@@ -80,7 +85,7 @@ Target audience experience level: intermediate
 <div class="section slide level1" id="hadoop-and-mapreduce">
 <h1>Hadoop and MapReduce</h1>
 <ul>
-<li>MapReduce provides a pattern to scale <strong>big</strong></li>
+<li>MapReduce provides a pattern to scale arbitrarily, linearly</li>
 <li>Hadoop provides an implementation of MapReduce</li>
 </ul>
 </div>
@@ -104,15 +109,22 @@ The above diagram is a <a href="http://en.wikipedia.org/wiki/File:Mapreduce_Over
 <li>Dumbo hadoop</li>
 </ol>
 <div class="handout">
-<p>These demos are in <code>example/log-crunch</code></p>
+<p>These demos are in <code>example/log-crunch</code>. Before you start, download and install Java Hadoop. I used OpenJDK 7 (installed via apt-get) and Hadoop 1.2.1 (downloaded tarball and untarred) when testing these examples. I configured my environment like so:</p>
+<pre><code>export HADOOP_PREFIX=/heap/tmp/hadoop-1.2.1
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64</code></pre>
+<p>Install dumbo if you want to run the dumbo examples. I used <code>easy_install</code>, following the <a href="https://github.com/klbostee/dumbo/wiki/Building-and-installing">directions on their wiki</a>.</p>
+<p>Here is how to run examples for each of the above bullets:</p>
 <ol style="list-style-type: decimal">
 <li><code>./map.py &lt; log.txt</code>, then <code>make shell</code></li>
 <li><code>make hadoop</code></li>
 <li><code>make dumbo-local</code></li>
-<li><code>make dumbo-hadoop</code>
-</div>
-</li>
+<li><code>make dumbo-hadoop</code></li>
 </ol>
+<p><code>reduce.py</code> assumes valid input (key=hostname, tab, value=integer), grouped by key (hostname). It must manually total up values for each consecutive group of keys (hostnames).</p>
+<p>The dumbo example is simpler because our reducer function is guaranteed to only get one key and a list of associated values.</p>
+<code>map.py</code> and <code>reduce.py</code> borrowed heavily from <a href="http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/">Michael Knoll's post on Hadoop MapReduce in Python</a>.
+</div>
+
 </div>
 <div class="section slide level1" id="log-crunching-more-data">
 <h1>Log crunching, more data</h1>
@@ -156,8 +168,8 @@ for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 <div class="section slide level1" id="the-end">
 <h1>The End</h1>
 <ul>
-<li><a href="http://adammonsen.com/talks"><code class="url">http://adammonsen.com/talks</code></a></li>
-<li><a href="https://github.com/meonkeys/hadoop-talk"><code class="url">https://github.com/meonkeys/hadoop-talk</code></a></li>
+<li><a href="http://adammonsen.com/talks">http://adammonsen.com/talks</a></li>
+<li><a href="https://github.com/meonkeys/hadoop-talk">https://github.com/meonkeys/hadoop-talk</a></li>
 </ul>
 <!--
 vim: ft=markdown
