@@ -11,4 +11,4 @@ dumbo-hadoop: log.txt clean with-dumbo.py
 	dumbo start with-dumbo.py -hadoop $(HADOOP_PREFIX) -input $< -outputformat text -output output
 
 clean:
-	$(RM) -r output
+	$(RM) -r output EGG-INFO dumbo tests typedbytes.*
