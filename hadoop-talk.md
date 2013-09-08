@@ -13,6 +13,12 @@ Target audience experience level: intermediate
 - see my article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
 - thank you SCCC
 
+<div class="handout">
+You'll laugh and you'll cry during this awe-inspiring introduction to big data
+processing with MapReduce and Hadoop. I only tested my code on Ubuntu GNU/Linux
+and only provide specific instructions for same, but all code is cross-platform.
+</div>
+
 # How do you scale when you must?
 
 # Bigger hardware
@@ -38,7 +44,7 @@ Target audience experience level: intermediate
 
 # Hadoop and MapReduce
 
-- MapReduce provides a pattern to scale **big**
+- MapReduce provides a pattern to scale arbitrarily, linearly
 - Hadoop provides an implementation of MapReduce
 
 # Diagram: MapReduce overview
@@ -58,12 +64,33 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 4. Dumbo hadoop
 
 <div class="handout">
-These demos are in `example/log-crunch`
+These demos are in `example/log-crunch`. Before you start, download and install
+Java Hadoop. I used OpenJDK 7 (installed via apt-get) and Hadoop 1.2.1
+(downloaded tarball and untarred) when testing these examples. I configured my
+environment like so:
+
+    export HADOOP_PREFIX=/heap/tmp/hadoop-1.2.1
+    export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+
+Install dumbo if you want to run the dumbo examples. I used `easy_install`,
+following the [directions on their wiki](https://github.com/klbostee/dumbo/wiki/Building-and-installing).
+
+Here is how to run examples for each of the above bullets:
 
 1. `./map.py < log.txt`, then `make shell`
 2. `make hadoop`
 3. `make dumbo-local`
 4. `make dumbo-hadoop`
+
+`reduce.py` assumes valid input (key=hostname, tab, value=integer), grouped by
+key (hostname). It must manually total up values for each consecutive group of
+keys (hostnames).
+
+The dumbo example is simpler because our reducer function is guaranteed to only
+get one key and a list of associated values.
+
+`map.py` and `reduce.py` borrowed heavily from
+[Michael Knoll's post on Hadoop MapReduce in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/).
 </div>
 
 # Log crunching, more data
