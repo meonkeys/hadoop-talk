@@ -128,6 +128,7 @@ for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 
 * <http://adammonsen.com/talks>
 * <https://github.com/meonkeys/hadoop-talk>
+* [do you have enough data to justify Hadoop?](http://www.chrisstucchio.com/blog/2013/hadoop_hatred.html)
 
 <!--
 vim: ft=markdown
