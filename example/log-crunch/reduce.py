@@ -8,10 +8,10 @@ for line in sys.stdin: # pre-sorted by Hadoop or our shell pipeline
     count = int(count)
     if last_host == host: # add more to sum for this host
         last_count += count
-    else: # new host -- print last host & count, reset both
-        if last_host: # don't print first line
+    else: # new host -- maybe print, reset state
+        if last_host:
             print '%s\t%s' % (last_host, last_count)
         last_host = host
         last_count = count
-if last_host == host: # last line different (we just reset stuff), print
+if last_host == host:
     print '%s\t%s' % (last_host, last_count)
