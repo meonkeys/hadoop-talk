@@ -107,7 +107,7 @@ get one key and a list of associated values.
 > before the rocket's engines are started.
 
 <div class="handout">
-Generated larger (667M) log file like so:
+Generated large data files like so:
 <pre>
 for i in {1..100}; do cat log.txt &gt;&gt; /tmp/data23k; done
 for i in {1..100}; do cat /tmp/data23k &gt;&gt; /tmp/data2.3M; done
