@@ -59,9 +59,9 @@ The above diagram is a [work of Wikipedia user Poposhka](http://en.wikipedia.org
 
 1. shell version, small input file
     - map only, then add reduce
-2. streaming: local (single-node) hadoop
-3. Dumbo local
-4. Dumbo hadoop
+1. streaming: local (single-node) hadoop
+1. Dumbo local
+1. Dumbo hadoop
 
 <div class="handout">
 These demos are in `example/log-crunch`. Before you start, download and install
@@ -78,9 +78,9 @@ following the [directions on their wiki](https://github.com/klbostee/dumbo/wiki/
 Here is how to run examples for each of the above bullets:
 
 1. `./map.py < log.txt`, then `make shell`
-2. `make hadoop`
-3. `make dumbo-local`
-4. `make dumbo-hadoop`
+1. `make hadoop`
+1. `make dumbo-local`
+1. `make dumbo-hadoop`
 
 `reduce.py` assumes valid input (key=hostname, tab, value=integer), grouped by
 key (hostname). It must manually total up values for each consecutive group of
