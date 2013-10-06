@@ -103,11 +103,15 @@ get one key and a list of associated values.
 
 <hr />
 
-> In a one-meter race between a rocket and a scooter, the scooter is gone
-> before the rocket's engines are started.
+> In a 10-meter race between a rocket and a scooter, the scooter
+> finishes before the rocket's engines start.
 
 <div class="handout">
-Generated large data files like so:
+<p>I like the scooter/rocket analogy for another reason.
+Consider that the scooter will never overcome wind resistance. The
+rocket will <em>eventually</em> leave the atmosphere, where it can
+accelerate indefinitely.</p>
+<p>Generated large data files like so:</p>
 <pre>
 for i in {1..100}; do cat log.txt &gt;&gt; /tmp/data23k; done
 for i in {1..100}; do cat /tmp/data23k &gt;&gt; /tmp/data2.3M; done
