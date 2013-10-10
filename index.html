@@ -142,10 +142,15 @@ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64</code></pre>
 <hr />
 
 <blockquote>
-<p>In a one-meter race between a rocket and a scooter, the scooter is gone before the rocket's engines are started.</p>
+<p>In a 10-meter race between a rocket and a scooter, the scooter finishes before the rocket's engines start.</p>
 </blockquote>
 <div class="handout">
-Generated larger (667M) log file like so:
+<p>
+I like the scooter/rocket analogy for another reason. Consider that the scooter will never overcome wind resistance. The rocket will <em>eventually</em> leave the atmosphere, where it can accelerate indefinitely.
+</p>
+<p>
+Generated large data files like so:
+</p>
 <pre>
 for i in {1..100}; do cat log.txt &gt;&gt; /tmp/data23k; done
 for i in {1..100}; do cat /tmp/data23k &gt;&gt; /tmp/data2.3M; done
@@ -170,6 +175,7 @@ for i in {1..20}; do cat /tmp/data67M &gt;&gt; /tmp/data1.4G; done
 <ul>
 <li><a href="http://adammonsen.com/talks">http://adammonsen.com/talks</a></li>
 <li><a href="https://github.com/meonkeys/hadoop-talk">https://github.com/meonkeys/hadoop-talk</a></li>
+<li><a href="http://www.chrisstucchio.com/blog/2013/hadoop_hatred.html">do you have enough data to justify Hadoop?</a></li>
 </ul>
 <!--
 vim: ft=markdown
