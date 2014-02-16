@@ -9,9 +9,8 @@ For: ADA Community Contact event
 Target audience experience level: beginner
 -->
 
-- this is the Hadoop talk
-- see my article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
 - thank you Ada Developers Academy
+- see my article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
 
 <div class="handout">
 You'll laugh and you'll cry during this awe-inspiring introduction to big data
