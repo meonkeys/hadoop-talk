@@ -1,17 +1,17 @@
 % Introduction to MapReduce with Hadoop
 % Adam Monsen
-% October 11, 2013
+% February 20, 2014
 
 # Welcome!
 
 <!--
-Conference: SeaGL 2013
-Target audience experience level: intermediate
+For: ADA Community Contact event
+Target audience experience level: beginner
 -->
 
 - this is the Hadoop talk
 - see my article in the [April 2013 issue of Linux Journal](http://www.linuxjournal.com/content/april-2013-issue-linux-journal-high-performance-computing)
-- thank you SCCC
+- thank you Ada Developers Academy
 
 <div class="handout">
 You'll laugh and you'll cry during this awe-inspiring introduction to big data
@@ -26,6 +26,12 @@ and only provide specific instructions for same, but all code is cross-platform.
 > In pioneer days they used oxen for heavy pulling, and when one ox couldn't
 > budge a log, they didn't try to grow a larger ox. We shouldn't be trying for
 > bigger computers, but for more systems of computers. --Grace Hopper
+
+<div class="handout">
+Grace Hopper wrote the first compiler, started the use of the term "debugging"
+for fixing software mistakes, and led the charge in architecture-independent
+  programming languages.
+</div>
 
 # Try "smarter"
 
