@@ -21,5 +21,5 @@ for line in sys.stdin:
         last_word = word
         last_pages = set([pages,])
 
-if last_word == word:
+if last_word != None:
     emit(last_word, last_pages)

@@ -13,5 +13,5 @@ for line in sys.stdin: # pre-sorted by Hadoop or our shell pipeline
             print '%s\t%s' % (last_host, last_count)
         last_host = host
         last_count = count
-if last_host == host:
+if last_host != None:
     print '%s\t%s' % (last_host, last_count)
