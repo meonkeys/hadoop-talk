@@ -2,7 +2,7 @@
 
 Hadoop/MapReduce talk by Adam Monsen.
 
-To be [presented at SeaGL 2013](http://lanyrd.com/2013/seagl/scpfdf/). Come check it out!
+To be [presented at the ADA Community Social](http://www.eventbrite.com/e/community-social-at-ada-dev-academy-tickets-10531962383). Come check it out!
 
 [Generated Slideshow](http://meonkeys.github.io/hadoop-talk/).
 
@@ -10,7 +10,7 @@ To be [presented at SeaGL 2013](http://lanyrd.com/2013/seagl/scpfdf/). Come chec
 
 # Copyright and license
 
-Copyright ©2013 Adam Monsen &lt;haircut@gmail.com&gt;.
+Copyright ©2013-2014 Adam Monsen &lt;haircut@gmail.com&gt;.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US)
 
