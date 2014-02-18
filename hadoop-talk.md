@@ -92,7 +92,7 @@ key (hostname). It must manually total up values for each consecutive group of
 keys (hostnames).
 
 The dumbo example is simpler because our reducer function is guaranteed to only
-get one key and a list of associated values.
+get one key and a generator of associated values.
 
 `map.py` and `reduce.py` borrowed heavily from
 [Michael Knoll's post on Hadoop MapReduce in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/).
