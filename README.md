@@ -1,6 +1,6 @@
 # Hadoop talk
 
-Hadoop/MapReduce talk by Adam Monsen.
+Slides and source for an introduction to Hadoop/MapReduce by Adam Monsen.
 
 To be [presented at the ADA Community Social](http://www.eventbrite.com/e/community-social-at-ada-dev-academy-tickets-10531962383). Come check it out!
 
