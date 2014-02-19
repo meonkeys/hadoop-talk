@@ -124,7 +124,7 @@ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64</code></pre>
 <li><code>make dumbo-hadoop</code></li>
 </ol>
 <p><code>reduce.py</code> assumes valid input (key=hostname, tab, value=integer), grouped by key (hostname). It must manually total up values for each consecutive group of keys (hostnames).</p>
-<p>The dumbo example is simpler because our reducer function is guaranteed to only get one key and a list of associated values.</p>
+<p>The dumbo example is simpler because our reducer function is guaranteed to only get one key and a generator of associated values.</p>
 <code>map.py</code> and <code>reduce.py</code> borrowed heavily from <a href="http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/">Michael Knoll's post on Hadoop MapReduce in Python</a>.
 </div>
 
