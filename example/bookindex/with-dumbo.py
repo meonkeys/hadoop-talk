@@ -10,12 +10,9 @@ def mapper(key, value):
 
 def reducer(key, values):
     pageset = set()
-    for pages in values:
-        for page in pages.split(','):
-            pageset.add(page)
-    pagelist = list(pageset)
-    pagelist.sort()
-    yield key, ','.join(pagelist)
+    for page in values:
+        pageset.add(page)
+    yield key, ','.join(sorted(pageset))
 
 if __name__ == '__main__':
     import dumbo
